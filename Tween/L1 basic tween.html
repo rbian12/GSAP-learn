@@ -10,13 +10,12 @@
         }
         .octupus {
             width: 300px;
-            
             object-fit: cover;
         }
     </style>
 </head>
 <body>
-    <img class="octupus" src="octupus.png" alt="" srcset="">
+    <img class="octupus" src="images/octupus.webp" alt="" srcset="">
 
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
@@ -24,7 +23,7 @@
 
     <script>
                  
-        gsap.to(".octupus", {x:200, duration:15});
+        gsap.to(".octupus", {x:200, y:200, scale:3, rotation:360, duration:3});
 
        </script>
 </body>
